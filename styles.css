@@ -1,0 +1,45 @@
+.heading {
+    text-align:center;
+    font-family:lucida handwriting;
+    font-size:25px;
+    color:Red;
+    background-color:rgb(215, 990, 171);
+    border-radius:25px; 
+}
+    .main_head{
+    font-family:bold;
+    font-size:35px;
+    text-align:center;
+    color:purple;
+    }
+    .download{
+    background-color:lightgreen;
+    color:black;
+    border-radius:25px;
+    text-decoration:none;
+    padding:5px 10px;
+    }
+    .filtered{
+    text-align:center;
+    }
+    input[type=text], input[type=email], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+    }
+    button[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    button[type=submit]:hover {
+     background-color: #45a049;
+}
