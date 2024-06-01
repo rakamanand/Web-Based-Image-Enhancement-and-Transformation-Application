@@ -4,9 +4,9 @@ import os
 
 def colorize_image(input_image):
     dir = r"C:\Users\rakam\OneDrive\Desktop\Major Project"
-    prototxt = os.path.join(dir, r"coding\colorization_deploy_v2.prototxt")
-    points = os.path.join(dir, r"coding/pts_in_hull.npy")
-    model = os.path.join(dir, r"coding/colorization_release_v2.caffemodel")
+    prototxt = os.path.join(dir, r"requriements\colorization_deploy_v2.prototxt")
+    points = os.path.join(dir, r"requirements/pts_in_hull.npy")
+    model = os.path.join(dir, r"requirements/colorization_release_v2.caffemodel")
 
     # Load the model
     net = cv2.dnn.readNetFromCaffe(prototxt, model)

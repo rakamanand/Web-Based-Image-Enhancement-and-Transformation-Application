@@ -36,7 +36,7 @@ if selected=="Home":
         st.markdown('<p style="text-align:center;font-family:italic;">Transform your images with ease! Our application allows you to colorize black and white images and apply a variety of filters to add creative effects. Whether you are enhancing old photographs or experimenting with new styles, our tool has you covered.</p>',unsafe_allow_html=True)
         st.markdown('<p style="text-align:center;font-family:lucida handwriting;">Lets have some fun by having experiment on various Images</p>',unsafe_allow_html=True)
     with col2:
-        image=Image.open(r'C:\Users\rakam\OneDrive\Desktop\Major Project\images\logo.png')
+        image=Image.open(r'C:\Users\rakam\OneDrive\Desktop\git project\Major-Project\test_Images\logo.png')
         st.image(image,width=100)
 
 
